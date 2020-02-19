@@ -1,0 +1,7 @@
+# KEYBOARD CONFIGURATION FILE
+# Consult the keyboard(5) manual page.
+XKBMODEL=""
+XKBLAYOUT="at"
+XKBVARIANT=""
+XKBOPTIONS=""
+BACKSPACE="guess"

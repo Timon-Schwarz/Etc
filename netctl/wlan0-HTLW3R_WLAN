@@ -1,0 +1,7 @@
+Description='Automatically generated profile by wifi-menu'
+Interface=wlan0
+Connection=wireless
+Security=wpa
+ESSID=HTLW3R_WLAN
+IP=dhcp
+Key=HTLW3R_WLAN

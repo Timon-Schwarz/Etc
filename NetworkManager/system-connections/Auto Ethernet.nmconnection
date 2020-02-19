@@ -1,0 +1,20 @@
+[connection]
+id=Auto Ethernet
+uuid=8ecd6835-d272-4832-b886-c5cc7657be45
+type=ethernet
+interface-name=enp3s0f1
+permissions=
+
+[ethernet]
+mac-address-blacklist=
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
+
+[proxy]
