@@ -1,19 +1,19 @@
 [connection]
-id=Wi-Fi Rennweg
-uuid=10b0ba98-379c-47c5-b52f-71de9ffcb23d
+id=A2-Sdeb118
+uuid=a672ecdd-862b-4f91-a99d-1a96bb7c7557
 type=wifi
-permissions=
-timestamp=1582270069
+interface-name=wlan0
+permissions=user:schwarz:;
 
 [wifi]
 mac-address-blacklist=
 mode=infrastructure
-seen-bssids=00:0C:E6:0A:3B:44;00:0C:E6:0A:ED:5A;
-ssid=HTLW3R_WLAN
+ssid=A2-Sdeb118
 
 [wifi-security]
+auth-alg=open
 key-mgmt=wpa-psk
-psk=HTLW3R_WLAN
+psk=AmNeuri5511!
 
 [ipv4]
 dns-search=
@@ -22,7 +22,6 @@ method=auto
 [ipv6]
 addr-gen-mode=stable-privacy
 dns-search=
-ip6-privacy=0
 method=auto
 
 [proxy]
