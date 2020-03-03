@@ -9323,6 +9323,8 @@ muse             6888/tcp
 muse             6888/udp
 rtimeviewer      6900/tcp
 jetstream        6901/tcp
+split-ping       6924/tcp
+split-ping       6924/udp
 ethoscan         6935/tcp
 ethoscan         6935/udp
 xsmsvc           6936/tcp
@@ -10506,6 +10508,7 @@ blocks          10288/tcp
 blocks          10288/udp
 cosir           10321/tcp
 bngsync         10439/udp
+cirrossp        10443/tcp
 hip-nat-t       10500/udp
 MOS-lower       10540/tcp
 MOS-lower       10540/udp
