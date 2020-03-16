@@ -54,3 +54,4 @@ git:x:972:
 rtkit:x:133:
 usbmux:x:140:
 mysql:x:971:
+locate:x:21:
