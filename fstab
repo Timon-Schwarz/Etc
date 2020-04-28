@@ -13,3 +13,8 @@ UUID=6593ac8f-5938-49b5-9dc5-3915e7d234dd	/var      	ext4      	rw,relatime	0 2
 # /dev/nvme0n1p3
 UUID=57d080ca-5fa9-4712-8dbc-96da275b0744	none      	swap      	defaults  	0 0
 
+# /dev/sda5
+UUID=D0885673885657D4	/data	ntfs	defaults	0	0
+
+# /dev/sda6
+UUID=50EC618F35390BB9	/vm	ntfs	defaults	0	0
