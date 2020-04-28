@@ -25,3 +25,4 @@ git:x:972:972:git daemon user:/:/usr/bin/git-shell
 rtkit:x:133:133:RealtimeKit:/proc:/usr/bin/nologin
 usbmux:x:140:140:usbmux user:/:/usr/bin/nologin
 schwarz:x:1000:985::/home/schwarz:/bin/zsh
+mysql:x:971:971:MariaDB:/var/lib/mysql:/usr/bin/nologin

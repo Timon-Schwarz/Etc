@@ -10260,6 +10260,7 @@ armcenterhttps   9295/udp
 vrace            9300/tcp
 vrace            9300/udp
 sphinxql         9306/tcp
+sapms            9310/tcp
 sphinxapi        9312/tcp
 secure-ts        9318/tcp
 secure-ts        9318/udp
