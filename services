@@ -7629,6 +7629,10 @@ dsmipv6          4191/udp
 azeti            4192/tcp
 azeti-bd         4192/udp
 pvxplusio        4193/tcp
+aws-wsp          4195/tcp
+aws-wsp          4195/udp
+aws-wsp          4195/sctp
+aws-wsp          4195/dccp
 hctl             4197/tcp
 hctl             4197/udp
 eims-admin       4199/tcp
@@ -7846,6 +7850,7 @@ prRegister       4457/tcp
 prRegister       4457/udp
 mcp              4458/tcp
 mcp              4458/udp
+ntske            4460/tcp
 hpssmgmt         4484/tcp
 hpssmgmt         4484/udp
 assyst-dr        4485/tcp
@@ -7931,6 +7936,7 @@ mtsserver        4602/tcp
 menandmice-upg   4603/tcp
 irp              4604/tcp
 sixchat          4605/tcp
+sixid            4606/tcp
 ventoso          4621/udp
 dots-signal      4646/tcp
 dots-signal      4646/udp

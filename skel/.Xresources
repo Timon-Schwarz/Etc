@@ -55,11 +55,8 @@ URxvt*internalBorder: 0
 URxvt*externalBorder: 0
 URxvt*letterSpace: -1
 URxvt.font: xft:monospace:size=11
-URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
 URxvt.copyCommand: xclip -i -selection clipboard
 URxvt.pasteCommand: xclip -o -selection clipboard
-URxvt.keysym.m-c: perl:clipboard:copy
-URxvt.keysym.m-v: perl:clipboard:paste
 URxvt.urlLauncher: exo-open
 URxvt.underlineURLs: true
 URxvt.urlButton: 1
