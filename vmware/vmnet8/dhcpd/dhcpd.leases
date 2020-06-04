@@ -6,8 +6,8 @@
 # The format of this file is documented in the dhcpd.leases(5) manual page.
 
 lease 192.168.241.128 {
-	starts 2 2020/05/05 10:04:35;
-	ends 2 2020/05/05 10:34:35;
+	starts 1 2020/05/18 12:03:05;
+	ends 1 2020/05/18 12:33:05;
 	hardware ethernet 00:0c:29:7e:51:37;
 	uid 01:00:0c:29:7e:51:37;
 	client-hostname "win10";

@@ -5,3 +5,17 @@
 # apologize.   Seriously, though - don't ask.
 # The format of this file is documented in the dhcpd.leases(5) manual page.
 
+lease 172.16.7.129 {
+	starts 6 2020/05/23 09:50:20;
+	ends 6 2020/05/23 10:20:20;
+	hardware ethernet 00:0c:29:e4:a4:52;
+	uid 01:00:0c:29:e4:a4:52;
+	client-hostname "HV-Timon";
+}
+lease 172.16.7.128 {
+	starts 1 2020/05/18 12:01:33;
+	ends 1 2020/05/18 12:31:33;
+	hardware ethernet 00:0c:29:7e:51:37;
+	uid 01:00:0c:29:7e:51:37;
+	client-hostname "win10";
+}
