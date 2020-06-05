@@ -7,7 +7,7 @@ log:x:19:schwarz
 smmsp:x:25:
 proc:x:26:polkitd
 games:x:50:
-lock:x:54:
+lock:x:54:schwarz
 network:x:90:schwarz
 floppy:x:94:schwarz
 scanner:x:96:schwarz
@@ -25,7 +25,7 @@ lp:x:991:
 optical:x:990:schwarz
 render:x:989:
 storage:x:988:schwarz
-uucp:x:987:
+uucp:x:987:schwarz
 video:x:986:schwarz
 users:x:985:
 systemd-journal:x:984:

@@ -25,7 +25,7 @@ lp:!!::
 optical:!!::schwarz
 render:!!::
 storage:!!::schwarz
-uucp:!!::
+uucp:!!::schwarz
 video:!!::schwarz
 users:!!::
 systemd-journal:!!::
@@ -56,3 +56,4 @@ usbmux:!!::
 mysql:!!::
 locate:!!::
 vboxusers:!!::schwarz
+dhcpcd:!!::

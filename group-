@@ -25,7 +25,7 @@ lp:x:991:
 optical:x:990:schwarz
 render:x:989:
 storage:x:988:schwarz
-uucp:x:987:
+uucp:x:987:schwarz
 video:x:986:schwarz
 users:x:985:
 systemd-journal:x:984:
@@ -56,3 +56,4 @@ usbmux:x:140:
 mysql:x:971:
 locate:x:21:
 vboxusers:x:108:schwarz
+dhcpcd:x:970:
