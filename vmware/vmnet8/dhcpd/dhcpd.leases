@@ -6,8 +6,8 @@
 # The format of this file is documented in the dhcpd.leases(5) manual page.
 
 lease 192.168.241.132 {
-	starts 1 2020/06/08 13:17:04;
-	ends 1 2020/06/08 13:47:04;
+	starts 1 2020/06/08 14:12:19;
+	ends 1 2020/06/08 14:42:19;
 	hardware ethernet 00:0c:29:bf:8c:da;
 	client-hostname "mint192";
 }
@@ -35,34 +35,4 @@ lease 192.168.241.129 {
 	ends 0 2020/05/03 12:03:59;
 	hardware ethernet 00:0c:29:f2:05:68;
 	client-hostname "centos7";
-}
-lease 192.168.241.132 {
-	starts 1 2020/06/08 13:35:23;
-	ends 1 2020/06/08 14:05:23;
-	hardware ethernet 00:0c:29:bf:8c:da;
-	client-hostname "mint192";
-}
-lease 192.168.241.132 {
-	starts 1 2020/06/08 13:35:43;
-	ends 1 2020/06/08 14:05:43;
-	hardware ethernet 00:0c:29:bf:8c:da;
-	client-hostname "mint192";
-}
-lease 192.168.241.132 {
-	starts 1 2020/06/08 13:50:09;
-	ends 1 2020/06/08 14:20:09;
-	hardware ethernet 00:0c:29:bf:8c:da;
-	client-hostname "mint192";
-}
-lease 192.168.241.132 {
-	starts 1 2020/06/08 14:11:59;
-	ends 1 2020/06/08 14:41:59;
-	hardware ethernet 00:0c:29:bf:8c:da;
-	client-hostname "mint192";
-}
-lease 192.168.241.132 {
-	starts 1 2020/06/08 14:12:19;
-	ends 1 2020/06/08 14:42:19;
-	hardware ethernet 00:0c:29:bf:8c:da;
-	client-hostname "mint192";
 }
