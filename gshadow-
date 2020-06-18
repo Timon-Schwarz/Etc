@@ -7,7 +7,7 @@ log:!!::schwarz
 smmsp:!!::
 proc:!!::polkitd
 games:!!::
-lock:!!::
+lock:!!::schwarz
 network:!!::schwarz
 floppy:!!::schwarz
 scanner:!!::schwarz
