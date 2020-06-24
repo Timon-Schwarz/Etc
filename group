@@ -58,3 +58,4 @@ locate:x:21:
 vboxusers:x:108:schwarz
 dhcpcd:x:970:
 nvidia-persistenced:x:143:
+smbshare:x:1000:

@@ -27,3 +27,4 @@ usbmux:x:140:140:usbmux user:/:/usr/bin/nologin
 schwarz:x:1000:985::/home/schwarz:/bin/zsh
 mysql:x:971:971:MariaDB:/var/lib/mysql:/usr/bin/nologin
 dhcpcd:x:970:970:dhcpcd privilege separation:/var/lib/dhcpcd:/usr/bin/nologin
+nvidia-persistenced:x:143:143:NVIDIA Persistence Daemon:/:/usr/bin/nologin

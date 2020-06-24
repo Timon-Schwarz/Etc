@@ -5,11 +5,25 @@
 # apologize.   Seriously, though - don't ask.
 # The format of this file is documented in the dhcpd.leases(5) manual page.
 
+lease 192.168.241.134 {
+	starts 1 2020/06/22 11:13:07;
+	ends 1 2020/06/22 11:17:47;
+	hardware ethernet 00:0c:29:90:fb:97;
+	uid 01:00:0c:29:90:fb:97;
+	client-hostname "win10";
+}
 lease 192.168.241.132 {
-	starts 1 2020/06/08 14:12:19;
-	ends 1 2020/06/08 14:42:19;
+	starts 1 2020/06/22 10:43:06;
+	ends 1 2020/06/22 11:13:06;
 	hardware ethernet 00:0c:29:bf:8c:da;
 	client-hostname "mint192";
+}
+lease 192.168.241.133 {
+	starts 6 2020/06/20 08:43:08;
+	ends 6 2020/06/20 09:13:08;
+	hardware ethernet 00:0c:29:f6:41:62;
+	uid 01:00:0c:29:f6:41:62;
+	client-hostname "win10";
 }
 lease 192.168.241.131 {
 	starts 1 2020/06/08 13:03:16;
