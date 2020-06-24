@@ -3,8 +3,8 @@
     <_type>vim.vm.ConfigOptionDescriptor</_type>
     <createSupported>true</createSupported>
     <defaultConfigOption>false</defaultConfigOption>
-    <description>Hardware version 18 virtual machine</description>
-    <key>vmx-18</key>
+    <description>Hardware version 19 virtual machine</description>
+    <key>vmx-19</key>
     <runSupported>true</runSupported>
     <upgradeSupported>true</upgradeSupported>
   </ConfigurationDescriptor>

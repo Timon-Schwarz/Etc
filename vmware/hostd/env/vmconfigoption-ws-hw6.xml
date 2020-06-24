@@ -34,12 +34,13 @@
       <settingDisplayTopologySupported>true</settingDisplayTopologySupported>
       <settingScreenResolutionSupported>true</settingScreenResolutionSupported>
       <settingVideoRamSizeSupported>true</settingVideoRamSizeSupported>
+      <sevSupported>false</sevSupported>
       <snapshotConfigSupported>true</snapshotConfigSupported>
       <snapshotOperationsSupported>true</snapshotOperationsSupported>
       <swapPlacementSupported>false</swapPlacementSupported>
       <toolsAutoUpdateSupported>true</toolsAutoUpdateSupported>
       <toolsRebootPredictSupported>false</toolsRebootPredictSupported>
-      <toolsSyncTimeAllowSupported>false</toolsSyncTimeAllowSupported>
+      <toolsSyncTimeAllowSupported>true</toolsSyncTimeAllowSupported>
       <toolsSyncTimeSupported>true</toolsSyncTimeSupported>
       <vPMCSupported>false</vPMCSupported>
       <virtualExecUsageIgnored>false</virtualExecUsageIgnored>
@@ -180,14 +181,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -195,7 +188,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -204,14 +197,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -331,14 +332,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -346,7 +339,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -355,14 +348,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -482,14 +483,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -497,7 +490,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -506,14 +499,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:H0HH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -636,14 +637,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -651,7 +644,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -660,14 +653,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -788,14 +789,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -803,7 +796,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -812,14 +805,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:H0HH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -942,14 +943,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -957,7 +950,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -966,14 +959,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -1096,14 +1097,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -1111,7 +1104,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -1120,14 +1113,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:H0HH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -1250,14 +1251,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -1265,7 +1258,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -1274,14 +1267,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -1402,14 +1403,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -1417,7 +1410,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -1426,14 +1419,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:H0HH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -1556,14 +1557,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -1571,7 +1564,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -1580,14 +1573,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:H0HH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -1710,14 +1711,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -1725,7 +1718,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -1734,14 +1727,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -1864,14 +1865,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -1879,7 +1872,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -1888,14 +1881,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -2016,14 +2017,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -2031,7 +2024,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -2040,14 +2033,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -2170,14 +2171,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -2185,7 +2178,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -2194,14 +2187,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -2324,14 +2325,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -2339,7 +2332,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -2348,14 +2341,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -2478,14 +2479,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -2493,7 +2486,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -2502,14 +2495,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -2632,14 +2633,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -2647,7 +2640,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -2656,14 +2649,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -2780,14 +2781,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -2795,7 +2788,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -2804,14 +2797,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -2933,14 +2934,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -2948,7 +2941,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -2957,14 +2950,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -3086,14 +3087,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -3101,7 +3094,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -3110,14 +3103,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -3234,14 +3235,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -3249,7 +3242,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -3258,14 +3251,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -3382,14 +3383,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -3397,7 +3390,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -3406,14 +3399,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -3533,14 +3534,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -3548,7 +3541,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -3557,14 +3550,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -3684,14 +3685,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -3699,7 +3692,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -3708,14 +3701,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -3836,14 +3837,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -3851,7 +3844,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -3860,14 +3853,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -3987,14 +3988,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -4002,7 +3995,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -4011,14 +4004,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -4140,14 +4141,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -4155,7 +4148,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -4164,14 +4157,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -4291,14 +4292,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -4306,7 +4299,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -4315,14 +4308,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -4444,14 +4445,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -4459,7 +4452,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -4468,14 +4461,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -4595,14 +4596,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -4610,7 +4603,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -4619,14 +4612,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -4749,14 +4750,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -4764,7 +4757,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -4773,14 +4766,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -4901,14 +4902,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -4916,7 +4909,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -4925,14 +4918,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -5052,14 +5053,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -5067,7 +5060,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -5076,14 +5069,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -5205,14 +5206,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -5220,7 +5213,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -5229,14 +5222,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -5356,14 +5357,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -5371,7 +5364,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -5380,14 +5373,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -5508,14 +5509,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -5523,7 +5516,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -5532,14 +5525,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -5659,14 +5660,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -5674,7 +5667,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -5683,14 +5676,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -5811,14 +5812,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -5826,7 +5819,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -5835,14 +5828,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -5962,14 +5963,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -5977,7 +5970,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -5986,14 +5979,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -6114,14 +6115,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -6129,7 +6122,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -6138,14 +6131,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -6265,14 +6266,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -6280,7 +6273,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -6289,14 +6282,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -6419,14 +6420,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -6434,7 +6427,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -6443,14 +6436,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -6570,14 +6571,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -6585,7 +6578,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -6594,14 +6587,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -6724,14 +6725,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -6739,7 +6732,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -6748,14 +6741,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -6875,14 +6876,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -6890,7 +6883,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -6899,14 +6892,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -7029,14 +7030,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -7044,7 +7037,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -7053,14 +7046,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -7180,14 +7181,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -7195,7 +7188,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -7204,14 +7197,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -7331,14 +7332,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -7346,7 +7339,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -7355,14 +7348,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -7484,14 +7485,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -7499,7 +7492,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -7508,14 +7501,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -7636,14 +7637,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -7651,7 +7644,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -7660,14 +7653,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -7787,14 +7788,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -7802,7 +7795,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -7811,14 +7804,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -7938,14 +7939,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -7953,7 +7946,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -7962,14 +7955,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -8089,14 +8090,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -8104,7 +8097,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -8113,14 +8106,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -8240,14 +8241,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -8255,7 +8248,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -8264,14 +8257,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -8391,14 +8392,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -8406,7 +8399,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -8415,14 +8408,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -8542,14 +8543,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -8557,7 +8550,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -8566,14 +8559,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -8693,14 +8694,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -8708,7 +8701,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -8717,14 +8710,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -8844,14 +8845,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -8859,7 +8852,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -8868,14 +8861,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -8995,14 +8996,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -9010,7 +9003,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -9019,14 +9012,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -9146,14 +9147,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -9161,7 +9154,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -9170,14 +9163,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -9300,14 +9301,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -9315,7 +9308,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -9324,14 +9317,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -9454,14 +9455,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -9469,7 +9462,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -9478,14 +9471,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -9608,14 +9609,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -9623,7 +9616,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -9632,14 +9625,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -9759,14 +9760,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -9774,7 +9767,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -9783,14 +9776,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -9913,14 +9914,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -9928,7 +9921,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -9937,14 +9930,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -10064,14 +10065,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -10079,7 +10072,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -10088,14 +10081,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -10217,14 +10218,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -10232,7 +10225,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -10241,14 +10234,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -10368,14 +10369,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -10383,7 +10376,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -10392,14 +10385,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -10522,14 +10523,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -10537,7 +10530,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -10546,14 +10539,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -10673,14 +10674,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -10688,7 +10681,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -10697,14 +10690,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:000H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -10826,14 +10827,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -10841,7 +10834,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -10850,14 +10843,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:000H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -10979,14 +10980,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -10994,7 +10987,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -11003,14 +10996,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:000H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -11132,14 +11133,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -11147,7 +11140,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -11156,14 +11149,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:H0HH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:H0HH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -11283,14 +11284,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -11298,7 +11291,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -11307,14 +11300,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:H0HH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -11436,14 +11437,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -11451,7 +11444,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -11460,14 +11453,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:H0HH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:H0HH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -11587,14 +11588,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -11602,7 +11595,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -11611,14 +11604,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:H0HH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -11739,14 +11740,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -11754,7 +11747,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -11763,14 +11756,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:H0HH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -11891,14 +11892,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -11906,7 +11899,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -11915,14 +11908,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:H0HH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -12043,14 +12044,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -12058,7 +12051,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -12067,14 +12060,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:H0HH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -12195,14 +12196,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -12210,7 +12203,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -12219,14 +12212,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -12350,14 +12351,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -12365,7 +12358,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -12374,14 +12367,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -12505,14 +12506,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -12520,7 +12513,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -12529,14 +12522,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -12658,14 +12659,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -12673,7 +12666,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -12682,14 +12675,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -12811,14 +12812,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -12826,7 +12819,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -12835,14 +12828,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -12964,14 +12965,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -12979,7 +12972,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -12988,14 +12981,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -13117,14 +13118,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -13132,7 +13125,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -13141,14 +13134,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -13270,14 +13271,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -13285,7 +13278,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -13294,14 +13287,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -13423,14 +13424,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -13438,7 +13431,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -13447,14 +13440,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -13577,14 +13578,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -13592,7 +13585,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -13601,14 +13594,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
             <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>
@@ -13731,14 +13732,6 @@
           <_type>vim.host.CpuIdInfo[]</_type>
           <e id="0">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
-            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
-            <level>-2147483647</level>
-          </e>
-          <e id="1">
-            <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>x000:0000:HH00:0000:00H0:0000:0000:000H</ecx>
@@ -13746,7 +13739,7 @@
             <level>1</level>
             <vendor>amd</vendor>
           </e>
-          <e id="2">
+          <e id="1">
             <_type>vim.host.CpuIdInfo</_type>
             <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
             <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
@@ -13755,14 +13748,22 @@
             <level>0</level>
             <vendor>amd</vendor>
           </e>
-          <e id="3">
+          <e id="2">
             <_type>vim.host.CpuIdInfo</_type>
-            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
             <ecx>0000:0000:x000:0000:0000:000H:HHH0:H00H</ecx>
-            <edx>HHT0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
             <level>-2147483647</level>
             <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x000:0000:0000:000H:HH00:H00H</ecx>
+            <edx>HHH0:H0HH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
           </e>
           <e id="4">
             <_type>vim.host.CpuIdInfo</_type>

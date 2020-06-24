@@ -182,10 +182,10 @@
         <unitNumber>17</unitNumber>
       </e>
     </defaultDevice>
-    <description>Hardware version 14 virtual machine</description>
+    <description>Hardware version 19 virtual machine</description>
     <guestOSDefaultIndex>0</guestOSDefaultIndex>
     <guestOSDescriptor>
-      <_length>123</_length>
+      <_length>125</_length>
       <_type>vim.vm.GuestOsDescriptor[]</_type>
       <e id="0">
         <_type>vim.vm.GuestOsDescriptor</_type>
@@ -196,7 +196,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -231,7 +231,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -298,7 +298,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -354,7 +354,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -389,7 +389,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -455,7 +455,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -511,7 +511,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -546,7 +546,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -613,7 +613,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -669,7 +669,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -704,7 +704,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -771,7 +771,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -827,7 +827,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -862,7 +862,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -928,7 +928,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -984,7 +984,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -1019,7 +1019,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -1086,7 +1086,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -1142,7 +1142,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -1177,7 +1177,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -1242,7 +1242,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -1297,7 +1297,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -1332,7 +1332,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -1398,7 +1398,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>768</supportedMinMemMB>
@@ -1453,7 +1453,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -1488,7 +1488,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -1552,7 +1552,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -1607,7 +1607,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -1642,7 +1642,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -1707,7 +1707,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -1762,7 +1762,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -1797,7 +1797,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -1860,7 +1860,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -1915,7 +1915,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -1950,7 +1950,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -2013,7 +2013,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -2068,7 +2068,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -2103,7 +2103,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -2168,7 +2168,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>4096</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>128</supportedMinMemMB>
@@ -2223,7 +2223,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -2258,7 +2258,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -2321,7 +2321,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>4096</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -2376,7 +2376,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -2411,7 +2411,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -2476,7 +2476,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>4096</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>128</supportedMinMemMB>
@@ -2531,7 +2531,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -2566,7 +2566,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -2631,7 +2631,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>4096</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -2686,7 +2686,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -2721,7 +2721,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -2786,7 +2786,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>4096</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -2841,7 +2841,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -2876,7 +2876,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -2939,7 +2939,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>4096</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -2994,7 +2994,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -3029,7 +3029,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -3094,7 +3094,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>4096</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>128</supportedMinMemMB>
@@ -3149,7 +3149,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -3184,7 +3184,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -3249,7 +3249,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>4096</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>128</supportedMinMemMB>
@@ -3304,7 +3304,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -3339,7 +3339,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -3405,7 +3405,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>768</supportedMinMemMB>
@@ -3460,7 +3460,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -3495,7 +3495,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -3560,7 +3560,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>128</supportedMinMemMB>
@@ -3615,7 +3615,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -3650,7 +3650,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -3713,7 +3713,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -3768,7 +3768,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -3803,7 +3803,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -3868,7 +3868,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>128</supportedMinMemMB>
@@ -3923,7 +3923,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -3958,7 +3958,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -4023,7 +4023,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>4096</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>128</supportedMinMemMB>
@@ -4078,7 +4078,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -4113,7 +4113,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -4178,7 +4178,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>4096</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>128</supportedMinMemMB>
@@ -4233,7 +4233,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -4268,7 +4268,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -4388,7 +4388,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -4423,7 +4423,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -4536,7 +4536,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -4571,7 +4571,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -4690,7 +4690,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -4725,7 +4725,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -4844,7 +4844,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -4879,7 +4879,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -4993,7 +4993,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -5028,7 +5028,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -5142,7 +5142,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -5177,7 +5177,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -5242,7 +5242,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>1024</supportedMinMemMB>
@@ -5298,7 +5298,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -5333,7 +5333,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -5398,7 +5398,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>1024</supportedMinMemMB>
@@ -5453,7 +5453,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -5488,7 +5488,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -5553,7 +5553,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>1024</supportedMinMemMB>
@@ -5608,7 +5608,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -5643,7 +5643,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -5707,7 +5707,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -5762,7 +5762,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -5797,7 +5797,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -5860,7 +5860,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -5915,7 +5915,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -5950,7 +5950,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -6014,7 +6014,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -6069,7 +6069,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -6104,7 +6104,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -6166,7 +6166,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -6221,7 +6221,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -6256,7 +6256,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -6320,7 +6320,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -6375,7 +6375,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -6410,7 +6410,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -6472,7 +6472,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -6527,7 +6527,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -6562,7 +6562,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -6626,7 +6626,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -6681,7 +6681,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -6716,7 +6716,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -6781,7 +6781,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -6836,7 +6836,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -6871,7 +6871,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -6935,7 +6935,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -6990,7 +6990,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -7025,7 +7025,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -7092,7 +7092,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -7147,7 +7147,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -7182,7 +7182,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -7247,7 +7247,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -7302,7 +7302,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -7337,7 +7337,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -7402,7 +7402,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -7458,7 +7458,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -7493,7 +7493,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -7558,7 +7558,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -7613,7 +7613,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -7648,7 +7648,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -7713,7 +7713,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -7769,7 +7769,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -7804,7 +7804,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -7868,7 +7868,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -7923,7 +7923,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -7958,7 +7958,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -8021,7 +8021,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -8076,7 +8076,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -8111,7 +8111,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -8174,7 +8174,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -8229,7 +8229,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -8264,7 +8264,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -8326,7 +8326,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -8381,7 +8381,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -8416,7 +8416,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -8484,7 +8484,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -8539,7 +8539,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -8574,7 +8574,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -8639,7 +8639,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -8694,7 +8694,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -8729,7 +8729,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -8795,7 +8795,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -8851,7 +8851,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -8886,7 +8886,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -8949,7 +8949,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -9005,7 +9005,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -9040,7 +9040,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -9104,7 +9104,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -9159,7 +9159,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -9194,7 +9194,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -9257,7 +9257,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -9312,7 +9312,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -9347,7 +9347,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -9410,7 +9410,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -9465,7 +9465,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -9500,7 +9500,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -9565,7 +9565,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -9620,7 +9620,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -9655,7 +9655,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -9719,7 +9719,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -9774,7 +9774,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -9809,7 +9809,315 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
+            <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
+            <level>1</level>
+          </e>
+          <e id="5">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
+            <ecx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ecx>
+            <edx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</edx>
+            <level>0</level>
+          </e>
+        </cpuFeatureMask>
+        <defaultSecureBoot>false</defaultSecureBoot>
+        <diskUuidEnabled>false</diskUuidEnabled>
+        <family>linuxGuest</family>
+        <fullName>Debian GNU/Linux 11 (32-bit)</fullName>
+        <ich7mRecommended>false</ich7mRecommended>
+        <id>debian11Guest</id>
+        <numRecommendedCoresPerSocket>0</numRecommendedCoresPerSocket>
+        <numRecommendedPhysicalSockets>0</numRecommendedPhysicalSockets>
+        <numSupportedCoresPerSocket>8</numSupportedCoresPerSocket>
+        <numSupportedFloppyDevices>2</numSupportedFloppyDevices>
+        <numSupportedPhysicalSockets>8</numSupportedPhysicalSockets>
+        <persistentMemoryColdGrowthGranularityMB>0</persistentMemoryColdGrowthGranularityMB>
+        <persistentMemoryColdGrowthSupported>false</persistentMemoryColdGrowthSupported>
+        <persistentMemoryHotAddSupported>false</persistentMemoryHotAddSupported>
+        <persistentMemoryHotGrowthGranularityMB>0</persistentMemoryHotGrowthGranularityMB>
+        <persistentMemoryHotGrowthSupported>false</persistentMemoryHotGrowthSupported>
+        <persistentMemoryHotRemoveSupported>false</persistentMemoryHotRemoveSupported>
+        <persistentMemorySupported>false</persistentMemorySupported>
+        <recommended3D>false</recommended3D>
+        <recommendedCdromController>vim.vm.device.VirtualIDEController</recommendedCdromController>
+        <recommendedColorDepth>16</recommendedColorDepth>
+        <recommendedDiskController>vim.vm.device.VirtualLsiLogicController</recommendedDiskController>
+        <recommendedDiskSizeMB>20480</recommendedDiskSizeMB>
+        <recommendedEthernetCard>vim.vm.device.VirtualE1000</recommendedEthernetCard>
+        <recommendedFirmware>bios</recommendedFirmware>
+        <recommendedMemMB>2048</recommendedMemMB>
+        <recommendedPersistentMemoryMB>0</recommendedPersistentMemoryMB>
+        <recommendedSCSIController>vim.vm.device.VirtualLsiLogicController</recommendedSCSIController>
+        <smcRecommended>false</smcRecommended>
+        <smcRequired>false</smcRequired>
+        <supportLevel>supported</supportLevel>
+        <supportedDiskControllerList>
+          <_length>5</_length>
+          <_type>vmodl.TypeName[]</_type>
+          <e id="0">vim.vm.device.VirtualLsiLogicController</e>
+          <e id="1">vim.vm.device.VirtualLsiLogicSASController</e>
+          <e id="2">vim.vm.device.VirtualIDEController</e>
+          <e id="3">vim.vm.device.VirtualAHCIController</e>
+          <e id="4">vim.vm.device.VirtualNVMEController</e>
+        </supportedDiskControllerList>
+        <supportedEthernetCard>
+          <_length>1</_length>
+          <_type>vmodl.TypeName[]</_type>
+          <e id="0">vim.vm.device.VirtualE1000</e>
+        </supportedEthernetCard>
+        <supportedFirmware>
+          <_length>1</_length>
+          <_type>string[]</_type>
+          <e id="0">bios</e>
+        </supportedFirmware>
+        <supportedForCreate>true</supportedForCreate>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
+        <supportedMaxMemMB>65536</supportedMaxMemMB>
+        <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
+        <supportedMinMemMB>512</supportedMinMemMB>
+        <supportedMinPersistentMemoryMB>0</supportedMinPersistentMemoryMB>
+        <supportedNumDisks>16</supportedNumDisks>
+        <supportedUSBControllerList>
+          <_length>1</_length>
+          <_type>vmodl.TypeName[]</_type>
+          <e id="0">vim.vm.device.VirtualUSBController</e>
+        </supportedUSBControllerList>
+        <supports3D>false</supports3D>
+        <supportsCpuHotAdd>false</supportsCpuHotAdd>
+        <supportsCpuHotRemove>false</supportsCpuHotRemove>
+        <supportsHotPlugPCI>true</supportsHotPlugPCI>
+        <supportsMemoryHotAdd>false</supportsMemoryHotAdd>
+        <supportsPvscsiControllerForBoot>false</supportsPvscsiControllerForBoot>
+        <supportsSecureBoot>false</supportsSecureBoot>
+        <supportsSlaveDisk>true</supportsSlaveDisk>
+        <supportsTPM20>false</supportsTPM20>
+        <supportsVMI>false</supportsVMI>
+        <supportsWakeOnLan>false</supportsWakeOnLan>
+        <usbRecommended>true</usbRecommended>
+        <vRAMSizeInKB>
+          <_type>vim.option.IntOption</_type>
+          <defaultValue>8192</defaultValue>
+          <max>131072</max>
+          <min>1200</min>
+        </vRAMSizeInKB>
+        <vbsSupported>
+          <_type>vim.option.BoolOption</_type>
+          <defaultValue>false</defaultValue>
+          <supported>false</supported>
+        </vbsSupported>
+        <vsgxSupported>
+          <_type>vim.option.BoolOption</_type>
+          <defaultValue>false</defaultValue>
+          <supported>false</supported>
+        </vsgxSupported>
+        <vvtdSupported>
+          <_type>vim.option.BoolOption</_type>
+          <defaultValue>false</defaultValue>
+          <supported>true</supported>
+        </vvtdSupported>
+        <vwdtSupported>false</vwdtSupported>
+      </e>
+      <e id="63">
+        <_type>vim.vm.GuestOsDescriptor</_type>
+        <cpuFeatureMask>
+          <_length>6</_length>
+          <_type>vim.host.CpuIdInfo[]</_type>
+          <e id="0">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
+            <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
+            <level>1</level>
+            <vendor>amd</vendor>
+          </e>
+          <e id="1">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
+            <ecx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ecx>
+            <edx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</edx>
+            <level>0</level>
+            <vendor>amd</vendor>
+          </e>
+          <e id="2">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x0H0:000H:0000:H0xH:HHHH:HHxH</ecx>
+            <edx>HHH0:HHHH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
+            <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x0H0:000H:0000:H0xH:HHHH:HHxH</ecx>
+            <edx>HHH0:HHHH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
+          </e>
+          <e id="4">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
+            <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
+            <level>1</level>
+          </e>
+          <e id="5">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
+            <ecx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ecx>
+            <edx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</edx>
+            <level>0</level>
+          </e>
+        </cpuFeatureMask>
+        <defaultSecureBoot>false</defaultSecureBoot>
+        <diskUuidEnabled>false</diskUuidEnabled>
+        <family>linuxGuest</family>
+        <fullName>Debian GNU/Linux 11 (64-bit)</fullName>
+        <ich7mRecommended>false</ich7mRecommended>
+        <id>debian11_64Guest</id>
+        <numRecommendedCoresPerSocket>0</numRecommendedCoresPerSocket>
+        <numRecommendedPhysicalSockets>0</numRecommendedPhysicalSockets>
+        <numSupportedCoresPerSocket>8</numSupportedCoresPerSocket>
+        <numSupportedFloppyDevices>2</numSupportedFloppyDevices>
+        <numSupportedPhysicalSockets>8</numSupportedPhysicalSockets>
+        <persistentMemoryColdGrowthGranularityMB>0</persistentMemoryColdGrowthGranularityMB>
+        <persistentMemoryColdGrowthSupported>false</persistentMemoryColdGrowthSupported>
+        <persistentMemoryHotAddSupported>false</persistentMemoryHotAddSupported>
+        <persistentMemoryHotGrowthGranularityMB>0</persistentMemoryHotGrowthGranularityMB>
+        <persistentMemoryHotGrowthSupported>false</persistentMemoryHotGrowthSupported>
+        <persistentMemoryHotRemoveSupported>false</persistentMemoryHotRemoveSupported>
+        <persistentMemorySupported>false</persistentMemorySupported>
+        <recommended3D>false</recommended3D>
+        <recommendedCdromController>vim.vm.device.VirtualIDEController</recommendedCdromController>
+        <recommendedColorDepth>16</recommendedColorDepth>
+        <recommendedDiskController>vim.vm.device.VirtualLsiLogicController</recommendedDiskController>
+        <recommendedDiskSizeMB>20480</recommendedDiskSizeMB>
+        <recommendedEthernetCard>vim.vm.device.VirtualE1000</recommendedEthernetCard>
+        <recommendedFirmware>bios</recommendedFirmware>
+        <recommendedMemMB>2048</recommendedMemMB>
+        <recommendedPersistentMemoryMB>0</recommendedPersistentMemoryMB>
+        <recommendedSCSIController>vim.vm.device.VirtualLsiLogicController</recommendedSCSIController>
+        <smcRecommended>false</smcRecommended>
+        <smcRequired>false</smcRequired>
+        <supportLevel>supported</supportLevel>
+        <supportedDiskControllerList>
+          <_length>5</_length>
+          <_type>vmodl.TypeName[]</_type>
+          <e id="0">vim.vm.device.VirtualLsiLogicController</e>
+          <e id="1">vim.vm.device.VirtualLsiLogicSASController</e>
+          <e id="2">vim.vm.device.VirtualIDEController</e>
+          <e id="3">vim.vm.device.VirtualAHCIController</e>
+          <e id="4">vim.vm.device.VirtualNVMEController</e>
+        </supportedDiskControllerList>
+        <supportedEthernetCard>
+          <_length>1</_length>
+          <_type>vmodl.TypeName[]</_type>
+          <e id="0">vim.vm.device.VirtualE1000</e>
+        </supportedEthernetCard>
+        <supportedFirmware>
+          <_length>1</_length>
+          <_type>string[]</_type>
+          <e id="0">bios</e>
+        </supportedFirmware>
+        <supportedForCreate>true</supportedForCreate>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
+        <supportedMaxMemMB>65536</supportedMaxMemMB>
+        <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
+        <supportedMinMemMB>512</supportedMinMemMB>
+        <supportedMinPersistentMemoryMB>0</supportedMinPersistentMemoryMB>
+        <supportedNumDisks>16</supportedNumDisks>
+        <supportedUSBControllerList>
+          <_length>1</_length>
+          <_type>vmodl.TypeName[]</_type>
+          <e id="0">vim.vm.device.VirtualUSBController</e>
+        </supportedUSBControllerList>
+        <supports3D>false</supports3D>
+        <supportsCpuHotAdd>true</supportsCpuHotAdd>
+        <supportsCpuHotRemove>true</supportsCpuHotRemove>
+        <supportsHotPlugPCI>true</supportsHotPlugPCI>
+        <supportsMemoryHotAdd>false</supportsMemoryHotAdd>
+        <supportsPvscsiControllerForBoot>false</supportsPvscsiControllerForBoot>
+        <supportsSecureBoot>false</supportsSecureBoot>
+        <supportsSlaveDisk>true</supportsSlaveDisk>
+        <supportsTPM20>false</supportsTPM20>
+        <supportsVMI>false</supportsVMI>
+        <supportsWakeOnLan>false</supportsWakeOnLan>
+        <usbRecommended>true</usbRecommended>
+        <vRAMSizeInKB>
+          <_type>vim.option.IntOption</_type>
+          <defaultValue>8192</defaultValue>
+          <max>131072</max>
+          <min>1200</min>
+        </vRAMSizeInKB>
+        <vbsSupported>
+          <_type>vim.option.BoolOption</_type>
+          <defaultValue>false</defaultValue>
+          <supported>false</supported>
+        </vbsSupported>
+        <vsgxSupported>
+          <_type>vim.option.BoolOption</_type>
+          <defaultValue>false</defaultValue>
+          <supported>false</supported>
+        </vsgxSupported>
+        <vvtdSupported>
+          <_type>vim.option.BoolOption</_type>
+          <defaultValue>false</defaultValue>
+          <supported>true</supported>
+        </vvtdSupported>
+        <vwdtSupported>false</vwdtSupported>
+      </e>
+      <e id="64">
+        <_type>vim.vm.GuestOsDescriptor</_type>
+        <cpuFeatureMask>
+          <_length>6</_length>
+          <_type>vim.host.CpuIdInfo[]</_type>
+          <e id="0">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
+            <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
+            <level>1</level>
+            <vendor>amd</vendor>
+          </e>
+          <e id="1">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</eax>
+            <ebx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ebx>
+            <ecx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</ecx>
+            <edx>HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH:HHHH</edx>
+            <level>0</level>
+            <vendor>amd</vendor>
+          </e>
+          <e id="2">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x0H0:000H:0000:H0xH:HHHH:HHxH</ecx>
+            <edx>HHH0:HHHH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
+            <vendor>amd</vendor>
+          </e>
+          <e id="3">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:xxxx:xxxx:xxxx:00xx:xxxx:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>0000:0000:x0H0:000H:0000:H0xH:HHHH:HHxH</ecx>
+            <edx>HHH0:HHHH:HH0H:00HH:HHHH:x0xH:HHHH:HHHH</edx>
+            <level>-2147483647</level>
+          </e>
+          <e id="4">
+            <_type>vim.host.CpuIdInfo</_type>
+            <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
+            <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -9873,7 +10181,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -9919,7 +10227,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="63">
+      <e id="65">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -9928,7 +10236,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -9963,7 +10271,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -10027,7 +10335,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -10073,7 +10381,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="64">
+      <e id="66">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -10082,7 +10390,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -10117,7 +10425,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -10181,7 +10489,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -10227,7 +10535,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="65">
+      <e id="67">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -10236,7 +10544,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -10271,7 +10579,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -10335,7 +10643,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -10381,7 +10689,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="66">
+      <e id="68">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -10390,7 +10698,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -10425,7 +10733,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -10489,7 +10797,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -10535,7 +10843,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="67">
+      <e id="69">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -10544,7 +10852,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -10579,7 +10887,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -10643,7 +10951,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -10689,7 +10997,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="68">
+      <e id="70">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -10698,7 +11006,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -10733,7 +11041,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -10797,7 +11105,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -10843,7 +11151,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="69">
+      <e id="71">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -10852,7 +11160,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -10887,7 +11195,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -10951,7 +11259,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -10997,7 +11305,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="70">
+      <e id="72">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -11006,7 +11314,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -11041,7 +11349,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -11104,7 +11412,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -11150,7 +11458,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="71">
+      <e id="73">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -11159,7 +11467,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -11194,7 +11502,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -11257,7 +11565,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -11303,7 +11611,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="72">
+      <e id="74">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -11312,7 +11620,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -11347,7 +11655,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -11409,7 +11717,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -11455,7 +11763,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="73">
+      <e id="75">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -11464,7 +11772,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -11499,7 +11807,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -11561,7 +11869,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -11607,7 +11915,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="74">
+      <e id="76">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -11616,7 +11924,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -11651,7 +11959,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -11713,7 +12021,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>false</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -11759,7 +12067,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="75">
+      <e id="77">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -11768,7 +12076,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -11803,7 +12111,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -11865,7 +12173,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>false</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -11911,7 +12219,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="76">
+      <e id="78">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -11920,7 +12228,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -11955,7 +12263,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -12019,7 +12327,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -12065,7 +12373,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="77">
+      <e id="79">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -12074,7 +12382,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -12109,7 +12417,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -12173,7 +12481,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -12219,7 +12527,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="78">
+      <e id="80">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -12228,7 +12536,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -12263,7 +12571,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -12327,7 +12635,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -12373,7 +12681,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="79">
+      <e id="81">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -12382,7 +12690,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -12417,7 +12725,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -12481,7 +12789,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -12527,7 +12835,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="80">
+      <e id="82">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -12536,7 +12844,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -12571,7 +12879,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -12635,7 +12943,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -12681,7 +12989,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="81">
+      <e id="83">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -12690,7 +12998,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -12725,7 +13033,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -12835,7 +13143,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="82">
+      <e id="84">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -12844,7 +13152,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -12879,7 +13187,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -12947,7 +13255,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -12994,7 +13302,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="83">
+      <e id="85">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -13003,7 +13311,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -13038,7 +13346,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -13103,7 +13411,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -13150,7 +13458,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="84">
+      <e id="86">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -13159,7 +13467,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -13194,7 +13502,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -13260,7 +13568,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>256</supportedMinMemMB>
@@ -13307,7 +13615,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="85">
+      <e id="87">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -13316,7 +13624,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -13351,7 +13659,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -13417,7 +13725,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>128</supportedMinMemMB>
@@ -13464,7 +13772,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="86">
+      <e id="88">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -13473,7 +13781,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -13508,7 +13816,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -13575,7 +13883,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -13621,7 +13929,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="87">
+      <e id="89">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -13630,7 +13938,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -13665,7 +13973,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -13729,7 +14037,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -13775,7 +14083,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="88">
+      <e id="90">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -13784,7 +14092,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -13819,7 +14127,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -13883,7 +14191,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -13929,7 +14237,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="89">
+      <e id="91">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -13938,7 +14246,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -13973,7 +14281,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -14035,7 +14343,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -14081,7 +14389,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="90">
+      <e id="92">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -14090,7 +14398,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -14125,7 +14433,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -14190,7 +14498,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -14236,7 +14544,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="91">
+      <e id="93">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -14245,7 +14553,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -14280,7 +14588,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -14342,7 +14650,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>false</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -14388,7 +14696,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="92">
+      <e id="94">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -14397,7 +14705,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -14432,7 +14740,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -14541,7 +14849,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="93">
+      <e id="95">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -14550,7 +14858,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -14585,7 +14893,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -14694,7 +15002,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="94">
+      <e id="96">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -14703,7 +15011,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -14738,7 +15046,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -14847,7 +15155,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="95">
+      <e id="97">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -14856,7 +15164,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -14891,7 +15199,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -14950,12 +15258,13 @@
           <e id="0">vim.vm.device.VirtualE1000</e>
         </supportedEthernetCard>
         <supportedFirmware>
-          <_length>1</_length>
+          <_length>2</_length>
           <_type>string[]</_type>
           <e id="0">bios</e>
+          <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>800</supportedMinMemMB>
@@ -15001,7 +15310,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="96">
+      <e id="98">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -15010,7 +15319,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -15045,7 +15354,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -15110,7 +15419,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>540</supportedMinMemMB>
@@ -15156,7 +15465,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="97">
+      <e id="99">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -15165,7 +15474,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -15200,7 +15509,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -15263,7 +15572,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>800</supportedMinMemMB>
@@ -15309,7 +15618,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="98">
+      <e id="100">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -15318,7 +15627,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -15353,7 +15662,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -15416,7 +15725,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>96</supportedMinMemMB>
@@ -15462,7 +15771,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="99">
+      <e id="101">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -15471,7 +15780,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -15506,7 +15815,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -15569,7 +15878,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -15615,7 +15924,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="100">
+      <e id="102">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -15624,7 +15933,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -15659,7 +15968,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -15722,7 +16031,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -15768,7 +16077,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="101">
+      <e id="103">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -15777,7 +16086,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -15812,7 +16121,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:H0HH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -15875,7 +16184,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -15921,7 +16230,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="102">
+      <e id="104">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -15930,7 +16239,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -15965,7 +16274,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -16032,7 +16341,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -16078,7 +16387,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="103">
+      <e id="105">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -16087,7 +16396,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -16122,7 +16431,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -16189,7 +16498,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -16235,7 +16544,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="104">
+      <e id="106">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -16244,7 +16553,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -16279,7 +16588,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -16347,7 +16656,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -16393,7 +16702,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="105">
+      <e id="107">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -16402,7 +16711,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -16437,7 +16746,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -16505,7 +16814,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -16551,7 +16860,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="106">
+      <e id="108">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -16560,7 +16869,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -16595,7 +16904,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -16658,7 +16967,7 @@
           <e id="0">efi</e>
         </supportedFirmware>
         <supportedForCreate>false</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>2048</supportedMinMemMB>
@@ -16705,7 +17014,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="107">
+      <e id="109">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -16714,7 +17023,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -16749,7 +17058,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -16813,7 +17122,7 @@
           <e id="0">efi</e>
         </supportedFirmware>
         <supportedForCreate>false</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>2048</supportedMinMemMB>
@@ -16860,7 +17169,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="108">
+      <e id="110">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -16869,7 +17178,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -16904,7 +17213,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -16968,7 +17277,7 @@
           <e id="0">efi</e>
         </supportedFirmware>
         <supportedForCreate>false</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>2048</supportedMinMemMB>
@@ -17015,7 +17324,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="109">
+      <e id="111">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -17024,7 +17333,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -17059,7 +17368,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -17123,7 +17432,7 @@
           <e id="0">efi</e>
         </supportedFirmware>
         <supportedForCreate>false</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>2048</supportedMinMemMB>
@@ -17170,7 +17479,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="110">
+      <e id="112">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -17179,7 +17488,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -17214,7 +17523,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -17278,7 +17587,7 @@
           <e id="0">efi</e>
         </supportedFirmware>
         <supportedForCreate>false</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -17324,7 +17633,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="111">
+      <e id="113">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -17333,7 +17642,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -17368,7 +17677,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -17432,7 +17741,7 @@
           <e id="0">efi</e>
         </supportedFirmware>
         <supportedForCreate>false</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -17478,7 +17787,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="112">
+      <e id="114">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -17487,7 +17796,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -17522,7 +17831,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -17585,7 +17894,7 @@
           <e id="0">efi</e>
         </supportedFirmware>
         <supportedForCreate>false</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -17631,7 +17940,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="113">
+      <e id="115">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -17640,7 +17949,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -17675,7 +17984,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:H0HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:H0HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -17738,7 +18047,7 @@
           <e id="0">efi</e>
         </supportedFirmware>
         <supportedForCreate>false</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>512</supportedMinMemMB>
@@ -17784,7 +18093,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="114">
+      <e id="116">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -17793,7 +18102,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -17828,7 +18137,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -17937,7 +18246,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="115">
+      <e id="117">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -17946,7 +18255,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -17981,7 +18290,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -18090,7 +18399,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="116">
+      <e id="118">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -18099,7 +18408,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -18134,7 +18443,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -18243,7 +18552,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="117">
+      <e id="119">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -18252,7 +18561,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -18287,7 +18596,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -18351,7 +18660,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>false</supportedForCreate>
-        <supportedMaxCPUs>4</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>4096</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>64</supportedMinMemMB>
@@ -18397,7 +18706,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="118">
+      <e id="120">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -18406,7 +18715,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -18441,7 +18750,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -18505,7 +18814,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>false</supportedForCreate>
-        <supportedMaxCPUs>4</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>4096</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>64</supportedMinMemMB>
@@ -18551,7 +18860,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="119">
+      <e id="121">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -18560,7 +18869,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -18595,7 +18904,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -18659,7 +18968,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>false</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>128</supportedMinMemMB>
@@ -18705,7 +19014,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="120">
+      <e id="122">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -18714,7 +19023,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -18749,7 +19058,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -18860,7 +19169,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="121">
+      <e id="123">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -18869,7 +19178,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -18904,7 +19213,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -18972,7 +19281,7 @@
           <e id="0">bios</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -19018,7 +19327,7 @@
         </vvtdSupported>
         <vwdtSupported>false</vwdtSupported>
       </e>
-      <e id="122">
+      <e id="124">
         <_type>vim.vm.GuestOsDescriptor</_type>
         <cpuFeatureMask>
           <_length>6</_length>
@@ -19027,7 +19336,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
             <vendor>amd</vendor>
@@ -19062,7 +19371,7 @@
             <_type>vim.host.CpuIdInfo</_type>
             <eax>0000:HHHH:HHHH:xxxx:00xx:HHHH:xxxx:xxxx</eax>
             <ebx>xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</ebx>
-            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:00H0:00HH</ecx>
+            <ecx>xHHH:xHHx:HHxH:H0H0:00HH:00H0:0HH0:00HH</ecx>
             <edx>000x:HHHH:HxH0:HHHH:HHHH:H0xH:HHHH:HHHH</edx>
             <level>1</level>
           </e>
@@ -19131,7 +19440,7 @@
           <e id="1">efi</e>
         </supportedFirmware>
         <supportedForCreate>true</supportedForCreate>
-        <supportedMaxCPUs>16</supportedMaxCPUs>
+        <supportedMaxCPUs>32</supportedMaxCPUs>
         <supportedMaxMemMB>65536</supportedMaxMemMB>
         <supportedMaxPersistentMemoryMB>0</supportedMaxPersistentMemoryMB>
         <supportedMinMemMB>32</supportedMinMemMB>
@@ -19186,7 +19495,7 @@
         <supported>false</supported>
       </autoCoresPerSocket>
       <deviceListReadonly>false</deviceListReadonly>
-      <hwVersion>14</hwVersion>
+      <hwVersion>19</hwVersion>
       <memoryMB>
         <_type>vim.option.LongOption</_type>
         <defaultValue>256</defaultValue>
@@ -19194,7 +19503,7 @@
         <min>4</min>
       </memoryMB>
       <numCPU>
-        <_length>16</_length>
+        <_length>32</_length>
         <_type>int[]</_type>
         <e id="0">1</e>
         <e id="1">2</e>
@@ -19212,6 +19521,22 @@
         <e id="13">14</e>
         <e id="14">15</e>
         <e id="15">16</e>
+        <e id="16">17</e>
+        <e id="17">18</e>
+        <e id="18">19</e>
+        <e id="19">20</e>
+        <e id="20">21</e>
+        <e id="21">22</e>
+        <e id="22">23</e>
+        <e id="23">24</e>
+        <e id="24">25</e>
+        <e id="25">26</e>
+        <e id="26">27</e>
+        <e id="27">28</e>
+        <e id="28">29</e>
+        <e id="29">30</e>
+        <e id="30">31</e>
+        <e id="31">32</e>
       </numCPU>
       <numCoresPerSocket>
         <_type>vim.option.IntOption</_type>
@@ -20193,7 +20518,7 @@
           <graphicsMemorySizeInKB>
             <_type>vim.option.LongOption</_type>
             <defaultValue>262144</defaultValue>
-            <max>2097152</max>
+            <max>4194304</max>
             <min>32768</min>
           </graphicsMemorySizeInKB>
           <graphicsMemorySizeSupported>
@@ -22425,6 +22750,6 @@
       <e id="1">debug</e>
       <e id="2">stats</e>
     </supportedMonitorType>
-    <version>vmx-14</version>
+    <version>vmx-19</version>
   </ConfigurationOption>
 </ConfigRoot>
