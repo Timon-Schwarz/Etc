@@ -11145,6 +11145,7 @@ voxelstorm      28200/udp
 siemensgsm      28240/tcp
 siemensgsm      28240/udp
 bosswave        28589/tcp
+saltd-licensing 29000/tcp
 sgsap           29118/sctp
 otmp            29167/tcp
 otmp            29167/udp
