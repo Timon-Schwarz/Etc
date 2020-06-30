@@ -90,6 +90,7 @@ maybe chmod 0600 'NetworkManager/system-connections/Wi-Fi connection 1.nmconnect
 maybe chmod 0600 'NetworkManager/system-connections/_ .nmconnection'
 maybe chmod 0755 'OpenCL'
 maybe chmod 0755 'OpenCL/vendors'
+maybe chmod 0644 'OpenCL/vendors/intel.icd'
 maybe chmod 0644 'OpenCL/vendors/nvidia.icd'
 maybe chmod 0644 'README.md'
 maybe chmod 0755 'UPower'
