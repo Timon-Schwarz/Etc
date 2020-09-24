@@ -6,7 +6,7 @@
 	<dllmap dll="libintl" name="bind_textdomain_codeset" target="libc.so.6" os="solaris"/>
 	<dllmap dll="libintl" target="libc.so.6" os="!windows"/>
 	<dllmap dll="i:libxslt.dll" target="libxslt.so" os="!windows"/>
-	<dllmap dll="i:odbc32.dll" target="libodbc.so" os="!windows"/>
+	<dllmap dll="i:odbc32.dll" target="libodbc.so.2" os="!windows"/>
 	<dllmap dll="i:odbc32.dll" target="libiodbc.dylib" os="osx"/>
 	<dllmap dll="oci" target="libclntsh.so" os="!windows"/>
 	<dllmap dll="db2cli" target="libdb2_36.so" os="!windows"/>

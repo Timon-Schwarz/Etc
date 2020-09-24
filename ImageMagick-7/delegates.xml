@@ -62,19 +62,19 @@
   <delegate decode="png" encode="bpg" command="&quot;bpgenc&quot; -b 12 -q &quot;%~&quot; -o &quot;%o&quot; &quot;%i&quot;"/>
   <delegate decode="blender" command="&quot;blender&quot; -b &quot;%i&quot; -F PNG -o &quot;%o&quot;&quot;\n&quot;magick&quot; convert -concatenate &quot;%o*.png&quot; &quot;%o&quot;"/>
   <delegate decode="browse" stealth="True" spawn="True" command="&quot;xdg-open&quot; https://imagemagick.org/; /usr/bin/rm &quot;%i&quot;"/>
-  <delegate decode="cdr" command="&quot;uniconvertor&quot; &quot;%i&quot; &quot;%o.svg&quot;; /usr/bin/mv &quot;%o.svg&quot; &quot;%o&quot;"/>
-  <delegate decode="cgm" command="&quot;uniconvertor&quot; &quot;%i&quot; &quot;%o.svg&quot;; /usr/bin/mv &quot;%o.svg&quot; &quot;%o&quot;"/>
+  <delegate decode="cdr" command="&quot;@UniconvertorDelegate@&quot; &quot;%i&quot; &quot;%o.svg&quot;; /usr/bin/mv &quot;%o.svg&quot; &quot;%o&quot;"/>
+  <delegate decode="cgm" command="&quot;@UniconvertorDelegate@&quot; &quot;%i&quot; &quot;%o.svg&quot;; /usr/bin/mv &quot;%o.svg&quot; &quot;%o&quot;"/>
   <delegate decode="https:decode" command="&quot;curl&quot; -s -k -L -o &quot;%u.dat&quot; &quot;https:%M&quot;"/>
   <delegate decode="doc" command="&quot;libreoffice&quot; --headless --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
   <delegate decode="docx" command="&quot;libreoffice&quot; --headless --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
   <delegate decode="dng:decode" command="&quot;ufraw-batch&quot; --silent --create-id=also --out-type=png --out-depth=16 &quot;--output=%u.png&quot; &quot;%i&quot;"/>
   <delegate decode="dot" command="&quot;dot&quot; -Tsvg &quot;%i&quot; -o &quot;%o&quot;" />
   <delegate decode="dvi" command="&quot;dvips&quot; -sstdout=%%stderr -o &quot;%o&quot; &quot;%i&quot;"/>
-  <delegate decode="dxf" command="&quot;uniconvertor&quot; &quot;%i&quot; &quot;%o.svg&quot;; /usr/bin/mv &quot;%o.svg&quot; &quot;%o&quot;"/>
+  <delegate decode="dxf" command="&quot;@UniconvertorDelegate@&quot; &quot;%i&quot; &quot;%o.svg&quot;; /usr/bin/mv &quot;%o.svg&quot; &quot;%o&quot;"/>
   <delegate decode="edit" stealth="True" command="&quot;xterm&quot; -title &quot;Edit Image Comment&quot; -e vi &quot;%o&quot;"/>
   <delegate decode="eps" encode="pdf" mode="bi" command="&quot;gs&quot; -sstdout=%%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 &quot;-sDEVICE=pdfwrite&quot; &quot;-sOutputFile=%o&quot; &quot;-f%i&quot;"/>
   <delegate decode="eps" encode="ps" mode="bi" command="&quot;gs&quot; -sstdout=%%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=ps2write&quot; &quot;-sOutputFile=%o&quot; &quot;-f%i&quot;"/>
-  <delegate decode="fig" command="&quot;uniconvertor&quot; &quot;%i&quot; &quot;%o.svg&quot;; /usr/bin/mv &quot;%o.svg&quot; &quot;%o&quot;"/>
+  <delegate decode="fig" command="&quot;@UniconvertorDelegate@&quot; &quot;%i&quot; &quot;%o.svg&quot;; /usr/bin/mv &quot;%o.svg&quot; &quot;%o&quot;"/>
   <delegate decode="hpg" command="&quot;hp2xx&quot; -sstdout=%%stderr -m eps -f `basename &quot;%o&quot;` &quot;%i&quot;;     /usr/bin/mv -f `basename &quot;%o&quot;` &quot;%o&quot;"/>
   <delegate decode="hpgl" command="&quot;hp2xx&quot; -sstdout=%%stderr -m eps -f `basename &quot;%o&quot;` &quot;%i&quot;;     /usr/bin/mv -f `basename &quot;%o&quot;` &quot;%o&quot;"/>
   <delegate decode="htm" command="&quot;html2ps&quot; -U -o &quot;%o&quot; &quot;%i&quot;"/>
@@ -110,7 +110,7 @@
   <delegate decode="shtml" command="&quot;html2ps&quot; -U -o &quot;%o&quot; &quot;%i&quot;"/>
   <delegate decode="sid" command="&quot;mrsidgeodecode&quot; -if sid -i &quot;%i&quot; -of tif -o &quot;%o&quot; &gt; &quot;%u&quot;"/>
   <delegate decode="svg" command="&quot;rsvg-convert&quot; -o &quot;%o&quot; &quot;%i&quot;"/>
-  <!-- Change export-file to export-png for inkscape < 1.0 -->
+  <!-- Change export-filename to export-png for inkscape < 1.0 -->
   <delegate decode="svg:decode" stealth="True" command="&quot;inkscape&quot; &quot;%s&quot; --export-filename=&quot;%s&quot; --export-dpi=&quot;%s&quot; --export-background=&quot;%s&quot; --export-background-opacity=&quot;%s&quot; &gt; &quot;%s&quot; 2&gt;&amp;1"/>
   <delegate decode="tiff" encode="launch" mode="encode" command="&quot;gimp&quot; &quot;%i&quot;"/>
   <delegate decode="wdp" command="/usr/bin/mv &quot;%i&quot; &quot;%i.jxr&quot;; &quot;JxrDecApp&quot; -i &quot;%i.jxr&quot; -o &quot;%o.bmp&quot;; /usr/bin/mv &quot;%i.jxr&quot; &quot;%i&quot;; /usr/bin/mv &quot;%o.bmp&quot; &quot;%o&quot;"/>

@@ -61,3 +61,4 @@ nvidia-persistenced:x:143:
 smbshare:x:1000:
 adbusers:x:969:
 wireshark:x:150:
+named:x:40:

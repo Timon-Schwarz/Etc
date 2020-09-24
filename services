@@ -9203,6 +9203,7 @@ fg-sysupdate     6550/tcp
 fg-sysupdate     6550/udp
 sum              6551/tcp
 sum              6551/udp
+checkmk-agent    6556/tcp
 xdsxdm           6558/tcp
 xdsxdm           6558/udp
 sane-port        6566/tcp
@@ -9273,6 +9274,7 @@ tsa              6689/udp
 cleverdetect     6690/tcp
 babel            6696/udp
 ircs-u           6697/tcp
+babel-dtls       6699/udp
 kti-icad-srvr    6701/tcp
 kti-icad-srvr    6701/udp
 e-design-net     6702/tcp
@@ -9479,6 +9481,7 @@ ramp             7227/tcp
 ramp             7227/udp
 citrixupp        7228/tcp
 citrixuppg       7229/tcp
+asa-gateways     7234/tcp
 aspcoordination  7235/udp
 display          7236/tcp
 pads             7237/tcp
@@ -11238,6 +11241,7 @@ traceroute      33434/udp
 mtrace          33435/udp
 snip-slave      33656/tcp
 snip-slave      33656/udp
+digilent-adept  33890/tcp
 turbonote-2     34249/tcp
 turbonote-2     34249/udp
 p-net-local     34378/tcp
@@ -11285,6 +11289,7 @@ observium-agent 36602/tcp
 mapx            36700/tcp
 kastenxpipe     36865/tcp
 kastenxpipe     36865/udp
+3gpp-w1ap       37472/sctp
 neckar          37475/tcp
 neckar          37475/udp
 gdrive-sync     37483/tcp
