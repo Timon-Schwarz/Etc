@@ -6,8 +6,8 @@
 # The format of this file is documented in the dhcpd.leases(5) manual page.
 
 lease 172.16.7.130 {
-	starts 5 2020/09/11 15:39:11;
-	ends 5 2020/09/11 16:09:11;
+	starts 4 2020/10/01 07:54:55;
+	ends 4 2020/10/01 08:24:55;
 	hardware ethernet 00:0c:29:ad:c4:3b;
 	uid 01:00:0c:29:ad:c4:3b;
 	client-hostname "gns3vm";
