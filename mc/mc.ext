@@ -497,6 +497,10 @@ regex/i/\.og[gax]$
 	Open=/usr/lib/mc/ext.d/sound.sh open ogg
 	View=%view{ascii} /usr/lib/mc/ext.d/sound.sh view ogg
 
+shell/i/.opus
+	Open=/usr/lib/mc/ext.d/sound.sh open opus
+	View=%view{ascii} /usr/lib/mc/ext.d/sound.sh view opus
+
 regex/i/\.(spx|flac)$
 	Open=/usr/lib/mc/ext.d/sound.sh open common
 
