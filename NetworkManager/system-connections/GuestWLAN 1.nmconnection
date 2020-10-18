@@ -1,6 +1,6 @@
 [connection]
-id=realme X2 Pro
-uuid=8d258809-7064-4bd1-a358-65d98079618b
+id=GuestWLAN 1
+uuid=6ad4e88e-73b0-460f-bfbb-c62fc062e7b0
 type=wifi
 interface-name=wlan0
 permissions=user:schwarz:;
@@ -8,12 +8,12 @@ permissions=user:schwarz:;
 [wifi]
 mac-address-blacklist=
 mode=infrastructure
-ssid=realme X2 Pro
+ssid=GuestWLAN
 
 [wifi-security]
 auth-alg=open
 key-mgmt=wpa-psk
-psk=lucaskaufdirinet
+psk=GuestWLAN
 
 [ipv4]
 dns-search=

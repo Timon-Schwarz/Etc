@@ -60,4 +60,5 @@ dhcpcd:!!::
 nvidia-persistenced:!!::
 smbshare:!::
 adbusers:!!::
-wireshark:!!::
+wireshark:!!::schwarz
+named:!!::

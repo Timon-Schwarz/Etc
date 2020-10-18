@@ -60,4 +60,5 @@ dhcpcd:x:970:
 nvidia-persistenced:x:143:
 smbshare:x:1000:
 adbusers:x:969:
-wireshark:x:150:
+wireshark:x:150:schwarz
+named:x:40:
