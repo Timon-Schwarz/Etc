@@ -6,18 +6,18 @@
 # The format of this file is documented in the dhcpd.leases(5) manual page.
 
 lease 192.168.241.138 {
-	starts 0 2020/10/11 12:47:43;
-	ends 0 2020/10/11 13:17:43;
+	starts 0 2020/10/18 12:48:21;
+	ends 0 2020/10/18 13:18:21;
 	hardware ethernet 00:0c:29:86:9e:32;
 	uid 01:00:0c:29:86:9e:32;
-	client-hostname "WIN-10973DF9TGL";
+	client-hostname "WSRV02";
 }
 lease 192.168.241.137 {
-	starts 0 2020/10/11 12:18:06;
-	ends 0 2020/10/11 12:48:06;
+	starts 0 2020/10/18 12:13:53;
+	ends 0 2020/10/18 12:43:53;
 	hardware ethernet 00:0c:29:ef:fe:61;
 	uid 01:00:0c:29:ef:fe:61;
-	client-hostname "WIN-K223IQOPR5B";
+	client-hostname "WSRV01";
 }
 lease 192.168.241.136 {
 	starts 0 2020/10/11 11:46:02;
